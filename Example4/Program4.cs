@@ -24,4 +24,7 @@ void PrintArray (int [] col)
 }
 
 
-int [] array = new int [10];
+int [] array = new int [10];  //Определили произвольный массив, состоящий из 10 элементов
+
+FillArray(array);            //Данный метод заполнил массив
+PrintArray(array);          //Данный метод распечатал массив в консоли
